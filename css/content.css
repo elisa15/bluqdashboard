@@ -1,0 +1,164 @@
+@font-face {
+    font-family:"Maven Pro";
+    src: url("fonts/Maven-Pro-Regular.otf")
+}
+
+
+@font-face{
+font-family:"DINNeuzeitGrotesk-BoldCond";
+src:url("http://fast.fonts.com/d/b41558bd-2862-46c0-abf7-536d2542fa26.eot?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc");
+src:url("http://fast.fonts.com/d/b41558bd-2862-46c0-abf7-536d2542fa26.eot?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc#iefix")format("embedded-opentype"),
+ url("fonts/DINNeuzeitGrotesk-BoldCond.otf") format("opentype"),
+ url("http://fast.fonts.com/d/388ef902-2c31-4818-abb1-a40dcd81f6d6.woff?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc")format("woff"), url("http://fast.fonts.com/d/29c60077-2614-4061-aa8d-5bcfdf7354bb.ttf?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc")format("truetype"), url("http://fast.fonts.com/d/76250d27-b353-4f3b-90c6-0ff635fabaab.svg?d44f19a684109620e484147ea690e818ee8d0f94c8efc5f31894b30255d761b9baed50f9f7bf286f78cb7d22838d1d51d956d04b899f396349fc66afa3141d12bd86108ae07dbc#svgFontName")format("svg");
+
+}
+
+
+body {
+	background-color: #FFFFFF;
+	font-family: "Maven Pro", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+	line-height: 1.6153em;
+}
+
+p {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+td {
+	font-family: "Maven Pro", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+pre {
+	font-family: "Maven Pro", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+
+.firstletter:first-letter {
+   font-size: 400%;
+   color: #000000;
+   float: left;
+   font-family:"Times New Roman", Times, serif;
+   text-transform:uppercase;
+   margin-top:7px;
+   margin-right:7px;
+}
+
+.all_caps {
+   font-family: "Maven Pro", Verdana, Arial, Helvetica, sans-serif;
+   text-transform:uppercase;
+ 
+}
+
+.tablerow1 {
+	background-color: #BBBBBB;
+}
+
+thead {
+	background-color: #FFBBBB;
+}
+
+tfoot {
+	background-color: #BBBBFF;
+}
+
+th {
+	font-family: "Maven Pro", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+/* Basic formats */
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* Global align classes */
+
+.left {
+	text-align: inherit;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.full {
+	text-align: justify
+}
+
+/* Image and table specific aligns */
+
+img.left, table.left {
+	float: left;
+	text-align: inherit;
+}
+
+img.center, table.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: inherit;
+}
+
+img.center {
+	display: block;
+}
+
+img.right, table.right {
+	float: right;
+	text-align: inherit;
+}
+
+
+blockquote p {
+
+font-size: 18px;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 70px;
+line-height: 1.2em;
+position: relative;
+color: #383838;
+}
+
+blockquote p:before {
+font-family: Georgia, serif;
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: 25px;
+top: 23px;
+color: #7a7a7a;
+}
+
+blockquote:after {
+
+content: no-close-quote
+}
